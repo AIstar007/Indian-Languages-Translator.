@@ -1,10 +1,11 @@
-sarvamai
-python-dotenv
-SpeechRecognition
-gTTS
-pygame
-httpx
-simpleaudio
-streamlit
-audio-recorder-streamlit
-wave 
+sarvamai==0.1.21
+python-dotenv==1.2.1
+SpeechRecognition==3.14.3
+gTTS==2.5.4
+httpx==0.28.1
+simpleaudio==1.0.4
+streamlit==1.51.0
+audio-recorder-streamlit==0.0.10
+# wave removed (pulled in MySQL-python which is Python2-only)
+# pygame removed (native libs required on server)
+PyMySQL==1.0.3
