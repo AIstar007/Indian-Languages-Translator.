@@ -1,3 +1,6 @@
+import pymysql
+pymysql.install_as_MySQLdb()
+
 import streamlit as st
 import os
 from dotenv import load_dotenv
@@ -6,7 +9,6 @@ import httpx
 import base64
 import io
 from audio_recorder_streamlit import audio_recorder
-import wave
 
 # Load environment variables
 load_dotenv()
@@ -1538,4 +1540,5 @@ def main():
         """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
+
     main()
