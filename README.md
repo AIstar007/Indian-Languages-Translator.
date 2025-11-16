@@ -14,7 +14,7 @@
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/🚀_Try_Demo-Launch_App-success?style=for-the-badge)](http://localhost:8501)
+[![Live Demo](https://img.shields.io/badge/🚀_Try_Demo-Launch_App-success?style=for-the-badge)](https://indian-languages-translator-alen-thomas.streamlit.app)
 [![Documentation](https://img.shields.io/badge/📚_Documentation-Read_More-blue?style=for-the-badge)](#-comprehensive-features)
 [![Sarvam AI](https://img.shields.io/badge/🤖_Powered_by-Sarvam_AI-purple?style=for-the-badge)](https://www.sarvam.ai/)
 
@@ -802,3 +802,4 @@ accuracy_metrics = {
 
 
 </div>
+
