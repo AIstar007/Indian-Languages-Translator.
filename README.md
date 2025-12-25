@@ -261,6 +261,18 @@ Step 5: Playback
 | **Marathi** | मराठी | `mr` | देवनागरी | 95M+ |
 | **Odia** | ଓଡ଼ିଆ | `od` | ଓଡ଼ିଆ | 40M+ |
 | **Punjabi** | ਪੰਜਾਬੀ | `pa` | ਗੁਰਮੁਖੀ | 125M+ |
+| **Assamese** | অসমীয়া | `as` | Bengali–Assamese | 15M+ |
+| **Bodo** | बड़ो | `brx` | Devanagari | 1.6M+ |
+| **Dogri** | डोगरी | `doi` | Devanagari | 2.6M+ |
+| **Kashmiri** | کٲشُر / कश्मीरी | `ks` | Perso-Arabic / Devanagari | 7M+ |
+| **Konkani** | कोंकणी | `kok` | Devanagari | 2.5M+ |
+| **Maithili** | मैथिली | `mai` | Devanagari | 34M+ |
+| **Manipuri** | ꯃꯤꯇꯩ ꯂꯣꯟ | `mni` | Meitei Mayek | 1.8M+ |
+| **Nepali** | नेपाली | `ne` | Devanagari | 17M+ |
+| **Sanskrit** | संस्कृतम् | `sa` | Devanagari | 0.1M+ |
+| **Santali** | ᱥᱟᱱᱛᱟᱲᱤ | `sat` | Ol Chiki | 7M+ |
+| **Sindhi** | سنڌي | `sd` | Perso-Arabic | 30M+ |
+| **Urdu** | اردو | `ur` | Perso-Arabic | 70M+ |
 
 </div>
 
@@ -498,6 +510,19 @@ Our intelligent transliteration engine understands how you write Indian language
 | **Malayalam** | `namaskaram engane und` | നമസ്കാരം എങ്ങനെയുണ്ട് | Hello, how are you? |
 | **Marathi** | `namaskar tumhi kase aahat` | नमस्कार तुम्ही कसे आहात | Hello, how are you? |
 | **Punjabi** | `sat sri akal tussi kivein ho` | ਸਤ ਸ੍ਰੀ ਅਕਾਲ ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ | Hello, how are you? |
+| **Odia** | `namaskar apana kemiti achanti` | ନମସ୍କାର ଆପଣ କେମିତି ଅଛନ୍ତି | Hello, how are you? |
+| **Assamese** | `nomoskar apuni kene ase` | নমস্কাৰ আপুনি কেনে আছে | Hello, how are you? |
+| **Bodo** | `angni nangou swnni` | आंनि नांगौ सोननि | Hello, how are you? |
+| **Dogri** | `namaskar tusi kive ho` | नमस्कार तुस्सी किवें हो | Hello, how are you? |
+| **Kashmiri** | `adab aap kith chhu` | آداب آپ کِتھ چھُ | Hello, how are you? |
+| **Konkani** | `namaskar tum koso asa` | नमस्कार तुम कसो आसा | Hello, how are you? |
+| **Maithili** | `namaskar ahan kem chhi` | नमस्कार अहाँ केम छी | Hello, how are you? |
+| **Manipuri** | `khurumjari aduga nahakna karamna leiriba` | ꯈꯨꯔꯨꯝꯖꯔꯤ ꯑꯗꯨꯒ ꯅꯍꯥꯛꯅ ꯀꯔꯝꯅ ꯂꯩꯔꯤꯕ | Hello, how are you? |
+| **Nepali** | `namaste tapai lai kasto cha` | नमस्ते तपाईंलाई कस्तो छ | Hello, how are you? |
+| **Sanskrit** | `namaste bhavan katham asti` | नमस्ते भवान् कथम् अस्ति | Hello, how are you? |
+| **Santali** | `johar menam chet leka` | ᱡᱚᱦᱟᱨ ᱢᱮᱱᱟᱢ ᱪᱮᱛ ᱞᱮᱠᱟ | Hello, how are you? |
+| **Sindhi** | `salaam tawhan kithya aahyo` | سلام توهان ڪٿيا آهيو | Hello, how are you? |
+| **Urdu** | `adaab aap kaise hain` | آداب آپ کیسے ہیں | Hello, how are you? |
 
 </div>
 
@@ -802,4 +827,5 @@ accuracy_metrics = {
 
 
 </div>
+
 
