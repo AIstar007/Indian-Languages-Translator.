@@ -1298,7 +1298,7 @@ def main():
                         
                         # If still same, try a different approach
                         if actual_source_lang == actual_target_lang:
-                            available_langs = ['hi', 'en', 'bn', 'ta', 'te', 'gu']
+                            available_langs = ["hi", "en", "bn", "ta", "te", "gu", "kn", "ml", "mr", "od", "pa", "as", "brx", "doi", "ks", "kok", "mai", "mni", "sa", "ne", "sat", "sd", "ur"]
                             for lang in available_langs:
                                 if lang != actual_source_lang:
                                     actual_target_lang = lang
@@ -1452,7 +1452,19 @@ def main():
                     'ml': {'native': 'മലയാളം', 'speakers': '35M+', 'script': 'Malayalam', 'fact': 'Has one of the largest alphabets'},
                     'pa': {'native': 'ਪੰਜਾਬੀ', 'speakers': '100M+', 'script': 'Gurmukhi', 'fact': 'Language of Punjab region'},
                     'od': {'native': 'ଓଡ଼ିଆ', 'speakers': '45M+', 'script': 'Odia', 'fact': 'Classical language of Odisha'},
-                    'en': {'native': 'English', 'speakers': '1.5B+', 'script': 'Latin', 'fact': 'Global lingua franca'}
+                    'en': {'native': 'English', 'speakers': '1.5B+', 'script': 'Latin', 'fact': 'Global lingua franca'},
+                    'as': {'native': 'অসমীয়া', 'speakers': '15M+', 'script': 'Bengali–Assamese', 'fact': 'Official language of Assam'},
+                    'brx': {'native': 'बड़ो', 'speakers': '1.6M+', 'script': 'Devanagari', 'fact': 'Spoken by the Bodo community of Assam'},
+                    'doi': {'native': 'डोगरी', 'speakers': '2.6M+', 'script': 'Devanagari', 'fact': 'Language of Jammu region'},
+                    'ks': {'native': 'کٲشُر / कश्मीरी', 'speakers': '7M+', 'script': 'Perso-Arabic / Devanagari', 'fact': 'Primary language of Kashmir Valley'},
+                    'kok': {'native': 'कोंकणी', 'speakers': '2.5M+', 'script': 'Devanagari', 'fact': 'Official language of Goa'},
+                    'mai': {'native': 'मैथिली', 'speakers': '34M+', 'script': 'Devanagari', 'fact': 'One of India’s classical languages'},
+                    'mni': {'native': 'ꯃꯤꯇꯩ ꯂꯣꯟ', 'speakers': '1.8M+', 'script': 'Meitei Mayek', 'fact': 'Language of Manipur'},
+                    'ne': {'native': 'नेपाली', 'speakers': '17M+', 'script': 'Devanagari', 'fact': 'Official language of Nepal'},
+                    'sa': {'native': 'संस्कृतम्', 'speakers': '0.1M+', 'script': 'Devanagari', 'fact': 'Ancient liturgical language of India'},
+                    'sat': {'native': 'ᱥᱟᱱᱛᱟᱲᱤ', 'speakers': '7M+', 'script': 'Ol Chiki', 'fact': 'Tribal language of central India'},
+                    'sd': {'native': 'سنڌي', 'speakers': '30M+', 'script': 'Perso-Arabic', 'fact': 'Language of Sindhi people'},
+                    'ur': {'native': 'اردو', 'speakers': '70M+', 'script': 'Perso-Arabic', 'fact': 'One of India’s official languages'}
                 }
                 
                 if selected_lang in lang_info:
@@ -1500,7 +1512,19 @@ def main():
             'ml': '🇮🇳 Malayalam',
             'mr': '🇮🇳 Marathi',
             'pa': '🇮🇳 Punjabi',
-            'od': '🇮🇳 Odia'
+            'od': '🇮🇳 Odia',
+            'as': '🇮🇳 Assamese',
+            'brx': '🇮🇳 Bodo',
+            'doi': '🇮🇳 Dogri',
+            'ks': '🇮🇳 Kashmiri',
+            'kok': '🇮🇳 Konkani',
+            'mai': '🇮🇳 Maithili',
+            'mni': '🇮🇳 Manipuri',
+            'ne': '🇳🇵 Nepali',
+            'sa': '🇮🇳 Sanskrit',
+            'sat': '🇮🇳 Santali',
+            'sd': '🇵🇰 Sindhi',
+            'ur': '🇮🇳 Urdu'
         }
         
         for code, display in lang_display.items():
@@ -1659,5 +1683,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
