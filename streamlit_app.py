@@ -27,6 +27,18 @@ SUPPORTED_LANGUAGES = {
     'pa': 'pa-IN',  # Punjabi
     'ta': 'ta-IN',  # Tamil
     'te': 'te-IN',  # Telugu
+    'as': 'as-IN', # Assamese
+    'brx': 'brx-IN', # Bodo
+    'doi': 'doi-IN', # Dogri
+    'ks': 'ks-IN', # Kashmiri
+    'kok': 'kok-IN', # Konkani
+    'mai': 'mai-IN', # Maithili
+    'mni': 'mni-IN', # Manipuri
+    'ne': 'ne-IN', # Nepali
+    'sa': 'sa-IN', # Sanskrit
+    'sat': 'sat-IN', # Santali
+    'sd': 'sd-IN', # Sindhi
+    'ur': 'ur-IN' # Urdu
 }
 
 # Language display names
@@ -42,7 +54,19 @@ LANGUAGE_NAMES = {
     'od': 'Odia',
     'pa': 'Punjabi',
     'ta': 'Tamil',
-    'te': 'Telugu'
+    'te': 'Telugu',
+    'as': 'as-IN',
+    'brx': 'brx-IN',
+    'doi': 'doi-IN',
+    'ks': 'ks-IN', 
+    'kok': 'kok-IN',
+    'mai': 'mai-IN',
+    'mni': 'mni-IN',
+    'ne': 'ne-IN',
+    'sa': 'sa-IN',
+    'sat': 'sat-IN',
+    'sd': 'sd-IN',
+    'ur': 'ur-IN'
 }
 
 # Available speakers
@@ -106,6 +130,27 @@ class StreamlitTranslator:
         # Language preference mapping
         smart_pairs = {
             'en': 'hi',  # English -> Hindi
+            'en': 'bn', # English -> Bengali
+            'en': 'gu', # English -> Gujarati
+            'en': 'kn', # English -> Kannada
+            'en': 'ml', # English -> Malayalam
+            'en': 'mr', # English -> Marathi
+            'en': 'od', # English -> Odia
+            'en': 'pa', # English -> Punjabi
+            'en': 'ta', # English -> Tamil
+            'en': 'te', # English -> Telugu
+            'en': 'as', # English -> Assamese
+            'en': 'brx', # English -> Bodo
+            'en': 'doi', # English -> Dogri
+            'en': 'ks', # English -> Kashmiri
+            'en': 'kok', # English -> Konkani
+            'en': 'mai', # English -> Maithili
+            'en': 'mni', # English -> Manipuri
+            'en': 'sa', # English -> Sanskrit
+            'en': 'ne', # English -> Nepali
+            'en': 'sat', # English -> Santali
+            'en': 'sd', # English -> Sindhi
+            'en': 'ur', # English -> Urdu
             'hi': 'en',  # Hindi -> English
             'bn': 'en',  # Bengali -> English
             'gu': 'en',  # Gujarati -> English
@@ -116,6 +161,18 @@ class StreamlitTranslator:
             'pa': 'en',  # Punjabi -> English
             'ta': 'en',  # Tamil -> English
             'te': 'en',  # Telugu -> English
+            'as': 'en', # Assamese -> English
+            'brx': 'en', # Bodo -> English
+            'doi': 'en', # Dogri -> English
+            'ks': 'en', # Kashmiri -> English
+            'kok': 'en', # Konkani -> English
+            'mai': 'en', # Maithili -> English
+            'mni': 'en', # Manipuri -> English
+            'sa': 'en', #Sanskrit -> English
+            'ne': 'en', #Nepali -> English
+            'sat': 'en', # Santali -> English
+            'sd': 'en', #Sindhi -> English
+            'ur':'en' #Urdu -> English
         }
         
         return smart_pairs.get(source_lang, 'en')
@@ -1542,3 +1599,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
